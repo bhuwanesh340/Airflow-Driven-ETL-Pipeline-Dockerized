@@ -138,6 +138,7 @@ http://localhost:8000
 Username: airflow
 Password: airflow
 ```
+<img width="1505" height="794" alt="image" src="https://github.com/user-attachments/assets/198e5a07-2af2-472a-bfb2-3b7ea43fe592" />
 
 ---
 
