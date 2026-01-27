@@ -3,17 +3,17 @@ import requests
 API_KEY = "eec21c4c8c5ead51f04def4152c69d6d"
 api_url = f"http://api.weatherstack.com/current?access_key={API_KEY}&query=New York"
 
-# def fetch_data():
-#     print("Fetching data from Weatherstack API...")
-#     try:
-#         response = requests.get(api_url)
-#         response.raise_for_status()  # Raise an error for bad responses
-#         print("API Response received successfully:")
-#         return response.json()
+def fetch_data():
+    print("Fetching data from Weatherstack API...")
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()  # Raise an error for bad responses
+        print("API Response received successfully:")
+        return response.json()
 
-#     except requests.exceptions.RequestException as e:
-#         print(f"An error occurred: {e}")
-#         raise
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred: {e}")
+        raise
 
 # fetch_data()
 
