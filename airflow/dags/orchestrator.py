@@ -3,11 +3,6 @@ from datetime import datetime, timedelta
 from airflow.providers.standard.operators.python import PythonOperator
 import sys
 
-# def safe_main_callable():
-#     print("This is a safe main callable for the orchestrator DAG.")
-#     from insert_records import main
-#     return main()
-
 sys.path.append("/opt/airflow/api-request")
 from insert_records import main
 
