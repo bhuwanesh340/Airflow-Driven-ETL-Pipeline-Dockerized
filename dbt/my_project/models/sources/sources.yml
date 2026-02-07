@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: weather_data_source
-  - database: db
+  - name: dev
+    database: db
     tables:
       - name: raw_weather_data
         columns:
